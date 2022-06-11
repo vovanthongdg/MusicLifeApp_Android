@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicLife</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="started">Đăng Nhập</string>
+    <string name="txtsignUp">Đăng Ký</string>
+    <string name="forgetpass">Quên Mật Khẩu?</string>
+    <string name="email">E-mail</string>
+    <string name="login">Đăng nhâp</string>
+</resources>

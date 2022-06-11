@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tvlistindex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="1"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tvtenbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="250dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Ten ca khuc"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:layout_toRightOf="@+id/tvlistindex"/>
+        <TextView
+            android:id="@+id/tvtencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtenbaihat"
+            android:layout_toRightOf="@id/tvlistindex"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#979797"
+            android:textSize="20sp"
+            android:text="Ca Si"/>
+        <ImageView
+            android:src="@drawable/iconlove"
+            android:id="@+id/ivlikelistsong"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

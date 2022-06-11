@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/title_playlist"
+        android:textColor="#3e3b3b"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="CẢM XÚC THĂNG HOA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/listview_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_playlist"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/view_more_playlist"
+        android:text="   Xem thêm Playlist"
+        android:layout_below="@+id/listview_playlist"
+        android:background="#c9c7c7"
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#0a0a0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

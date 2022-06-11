@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imagebg_banner"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <View
+        android:background="@drawable/custom_bg_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <RelativeLayout
+        android:layout_alignBottom="@+id/imagebg_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageview_banner"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="20dp"/>
+        <TextView
+            android:id="@+id/title_bai_hat"
+            android:text="alooo"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imageview_banner"
+            android:layout_alignTop="@+id/imageview_banner"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_toRightOf="@+id/imageview_banner"
+            android:layout_below="@+id/title_bai_hat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+            <TextView
+                android:id="@+id/noi_dung"
+                android:textColor="#fffdfc"
+                android:text="aloooooooooooooooooooooooooooooooooooooooooooo"
+                android:maxLines="2"
+                android:layout_marginRight="40dp"
+                android:textSize="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
